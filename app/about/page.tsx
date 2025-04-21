@@ -58,7 +58,7 @@ export default function AboutPage() {
 
         {introComplete && (
           <Terminal
-            text="Hello, I'm OTIXIS. A full-stack developer with a passion for AI, cybersecurity, and creating immersive digital experiences. I specialize in building modern web applications with a focus on performance, accessibility, and user experience."
+            text="Hello, I'm OTIS. A full-stack developer with a passion for AI, and creating immersive digital experiences. I specialize in building modern web applications with a focus on performance, accessibility, and user experience."
             typingSpeed={20}
             className="max-w-3xl mx-auto mt-4"
             showPrompt={false}
@@ -229,7 +229,7 @@ export default function AboutPage() {
                       </Link>
                     </div> */}
                     <div>
-                      <p className="mb-1 text-primary">mail0:</p>
+                      <p className="mb-1 text-primary">mail:</p>
                       <Link
                         href="mailto:hello@example.com"
                         className="flex items-center gap-2 hover:text-primary transition-colors"

@@ -50,7 +50,7 @@ export default function Home() {
     <div className="space-y-16">
       <section className="py-12">
         <Terminal
-          text="Hello, World. I am OTIXIS. Full-stack developer and AI enthusiast. Welcome to my digital realm."
+          text="Hello, World. I am OTIS. Full-stack developer. Welcome to my digital realm."
           typingSpeed={40}
           className="max-w-3xl mx-auto"
           onComplete={() => setIntroComplete(true)}
