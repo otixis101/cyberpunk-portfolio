@@ -26,11 +26,11 @@ export default function Home() {
       technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
     },
     {
-      id: "#",
-      title: "AI Chatbot",
-      description: "Conversational AI assistant with natural language processing and machine learning capabilities.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Python", "NLP", "TensorFlow"],
+      id: "peer-peer",
+      title: "Peer-Peer",
+      description: "A Crypto P2P Trading platform for making safe and seemless transactions between users",
+      image: "/images/peer-peer.png",
+      technologies: ["Next.js", "Next-Auth", "Typescript", "Redux", "Prisma", "Postgresql" ],
     },
   ]
 
@@ -44,13 +44,13 @@ export default function Home() {
     },
   ]
 
-  const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Python", "TensorFlow", "C#"]
+  const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Nest.js", "Python", "TensorFlow", "C#"]
 
   return (
     <div className="space-y-16">
       <section className="py-12">
         <Terminal
-          text="Hello, World. I am OTIS. Full-stack developer. Welcome to my digital realm."
+          text="Hello, World. I am OTIS. A freelancing full-stack web developer. Welcome to my digital realm."
           typingSpeed={40}
           className="max-w-3xl mx-auto"
           onComplete={() => setIntroComplete(true)}

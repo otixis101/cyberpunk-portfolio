@@ -35,13 +35,35 @@ export default function ProjectPage() {
     "kloth-ware": {
       title: "Kloth Ware",
       description: "Eccomerce Web Application platform for a clothing brands",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/images/kloth-ware.png",
       technologies: ["Next.js", "Typescript", "Redux", "Sanity", "Stripe" ],
       category: "web",
       github: "https://github.com/",
       demo: "https://kloth-ware.vercel.app",
       longDescription:
         "Eccomerce Web Application platform for a clothing brands",
+    },
+    "shippee": {
+      title: "Shippee",
+      description: "Shipment Tracking Web Application platform for logistics services",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Next.js", "Typescript", "Redux", "Prisma", "Postgresql" ],
+      category: "web",
+      github: "https://github.com/",
+      demo: "https://shippee.vercel.app",
+      longDescription:
+        "Shipment Tracking Web Application platform for logistics services",
+    },
+    "peer-peer": {
+      title: "Peer-Peer",
+      description: "A Crypto P2P Trading platform for making safe and seemless transactions between users",
+      image: "/images/peer-peer.png",
+      technologies: ["Next.js", "Next-Auth", "Typescript", "Redux", "Prisma", "Postgresql" ],
+      category: "web",
+      github: "https://github.com/",
+      demo: "https://peer-peer.vercel.app",
+      longDescription:
+        "A Crypto P2P Trading platform for making safe and seemless transactions between users",
     },
     "ai-chatbot": {
       title: "AI Chatbot",

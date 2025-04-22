@@ -40,9 +40,9 @@ export default function AboutPage() {
   const skills = [
     { category: "Languages", items: ["JavaScript", "TypeScript", "PHP", "C#", "Python"] },
     { category: "Frontend", items: ["React", "Next.js", "Vue.js", "CSS/SCSS", "Tailwind CSS"] },
-    { category: "Backend", items: ["Node.js", "Express", "Laravel"] },
+    { category: "Backend", items: ["Node.js", "Express", "Laravel", "Nest.js"] },
     { category: "Database", items: ["MongoDB", "PostgreSQL", "MySQL"] },
-    { category: "DevOps", items: ["Docker", "Git", "Ci/CD"] },
+    { category: "DevOps", items: ["Docker", "Git", "CI/CD"] },
     // { category: "AI/ML", items: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"] },
   ]
 

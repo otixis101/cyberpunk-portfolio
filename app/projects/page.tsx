@@ -13,7 +13,7 @@ export default function ProjectsPage() {
       description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["Next.js", "Typescript", "LocalRamp"],
-      category: "crypto",
+      category: "web",
     },
     {
       id: "tunnel-moon",
@@ -27,8 +27,24 @@ export default function ProjectsPage() {
       id: "kloth-ware",
       title: "Kloth Ware",
       description: "Eccomerce Web Application platform for a clothing brands",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/kloth-ware.png",
       technologies: ["Next.js", "Typescript", "Redux", "Sanity", "Stripe" ],
+      category: "web",
+    },
+    {
+      id: "peer-peer",
+      title: "Peer-Peer",
+      description: "A Crypto P2P Trading platform for making safe and seemless transactions between users",
+      image: "/images/peer-peer.png",
+      technologies: ["Next.js", "Next-Auth", "Typescript", "Redux", "Prisma", "Postgresql" ],
+      category: "crypto",
+    },
+    {
+      id: "shippee",
+      title: "Shippee",
+      description: "Shipment Tracking Web Application platform for logistics services",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Next.js", "Typescript", "Redux", "Prisma", "Postgresql" ],
       category: "web",
     },
     {
@@ -60,7 +76,7 @@ export default function ProjectsPage() {
   const categories = [
     { id: "all", name: "All Projects" },
     { id: "web", name: "Web Development" },
-    { id: "web3", name: "web3" },
+    { id: "crypto", name: "web3" },
     { id: "ai", name: "AI & Machine Learning" },
     { id: "blockchain", name: "Blockchain" },
     // { id: "ar", name: "AR/VR" },
