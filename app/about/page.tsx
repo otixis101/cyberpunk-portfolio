@@ -16,24 +16,24 @@ export default function AboutPage() {
   const experiences = [
     {
       title: "Senior Frontend Developer",
-      company: "TechCorp Inc.",
-      period: "2021 - Present",
+      company: "Peach Blossoms.",
+      period: "2022 - Present",
       description:
         "Leading the frontend development team, implementing modern React architectures, and optimizing application performance.",
     },
     {
       title: "Full Stack Developer",
-      company: "Digital Solutions",
-      period: "2018 - 2021",
+      company: "Tunnel inc.",
+      period: "2023 - Present",
       description:
         "Developed and maintained web applications using React, Node.js, and MongoDB. Implemented CI/CD pipelines and automated testing.",
     },
     {
       title: "Junior Developer",
-      company: "StartUp Labs",
+      company: "Moneyca",
       period: "2016 - 2018",
       description:
-        "Worked on frontend development using JavaScript and CSS. Collaborated with designers to implement responsive UI components.",
+        "Worked on frontend development using JavaScript and SCSS. Collaborated with designers to implement responsive UI components.",
     },
   ]
 
@@ -42,7 +42,7 @@ export default function AboutPage() {
     { category: "Frontend", items: ["React", "Next.js", "Vue.js", "CSS/SCSS", "Tailwind CSS"] },
     { category: "Backend", items: ["Node.js", "Express", "Laravel"] },
     { category: "Database", items: ["MongoDB", "PostgreSQL", "MySQL"] },
-    { category: "DevOps", items: ["Docker", "Git"] },
+    { category: "DevOps", items: ["Docker", "Git", "Ci/CD"] },
     // { category: "AI/ML", items: ["TensorFlow", "PyTorch", "NLP", "Computer Vision"] },
   ]
 
@@ -58,7 +58,7 @@ export default function AboutPage() {
 
         {introComplete && (
           <Terminal
-            text="Hello, I'm OTIS. A full-stack developer with a passion for AI, and creating immersive digital experiences. I specialize in building modern web applications with a focus on performance, accessibility, and user experience."
+            text="Hello, I'm OTIS. A freelancing full-stack web developer with a passion for AI, and creating immersive digital experiences. I specialize in building modern web applications with a focus on performance, accessibility, and user experience."
             typingSpeed={20}
             className="max-w-3xl mx-auto mt-4"
             showPrompt={false}
