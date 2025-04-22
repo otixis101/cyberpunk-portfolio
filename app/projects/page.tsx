@@ -8,12 +8,28 @@ export default function ProjectsPage() {
 
   const projects = [
     {
-      id: "neural-network",
-      title: "Neural Network Visualizer",
-      description: "Interactive visualization of neural networks with real-time data processing and node connections.",
+      id: "tunnel-crypto",
+      title: "Tunnel Crypto",
+      description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React", "D3.js", "TensorFlow.js"],
-      category: "ai",
+      technologies: ["Next.js", "Typescript", "LocalRamp"],
+      category: "crypto",
+    },
+    {
+      id: "tunnel-moon",
+      title: "Tunnel Moon",
+      description: "Web Application used Launching Solana-based token powered by moonshot",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
+      category: "crypto",
+    },
+    {
+      id: "kloth-ware",
+      title: "Kloth Ware",
+      description: "Eccomerce Web Application platform for a clothing brands",
+      image: "/placeholder.svg?height=400&width=600",
+      technologies: ["Next.js", "Typescript", "Redux", "Sanity", "Stripe" ],
+      category: "web",
     },
     {
       id: "crypto-dashboard",
@@ -32,38 +48,22 @@ export default function ProjectsPage() {
       category: "ai",
     },
     {
-      id: "blockchain-explorer",
+      id: "#",
       title: "Blockchain Explorer",
       description: "Tool for visualizing and exploring blockchain transactions and smart contracts.",
       image: "/placeholder.svg?height=400&width=600",
       technologies: ["React", "Ethers.js", "GraphQL"],
       category: "blockchain",
     },
-    {
-      id: "data-visualization",
-      title: "Data Visualization Platform",
-      description: "Interactive platform for creating and sharing data visualizations and insights.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["D3.js", "React", "Node.js"],
-      category: "data",
-    },
-    {
-      id: "ar-navigation",
-      title: "AR Navigation System",
-      description: "Augmented reality navigation system for indoor and outdoor environments.",
-      image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Unity", "ARKit", "C#"],
-      category: "ar",
-    },
   ]
 
   const categories = [
     { id: "all", name: "All Projects" },
     { id: "web", name: "Web Development" },
+    { id: "web3", name: "web3" },
     { id: "ai", name: "AI & Machine Learning" },
     { id: "blockchain", name: "Blockchain" },
-    { id: "data", name: "Data Visualization" },
-    { id: "ar", name: "AR/VR" },
+    // { id: "ar", name: "AR/VR" },
   ]
 
   const filteredProjects =

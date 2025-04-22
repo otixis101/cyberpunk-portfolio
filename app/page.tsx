@@ -12,21 +12,21 @@ export default function Home() {
 
   const featuredProjects = [
     {
-      id: "neural-network",
-      title: "Neural Network Visualizer",
-      description: "Interactive visualization of neural networks with real-time data processing and node connections.",
+      id: "tunnel-crypto",
+      title: "Tunnel Crypto",
+      description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["React", "D3.js", "TensorFlow.js"],
+      technologies: ["Next.js", "Typescript", "LocalRamp"],
     },
     {
-      id: "crypto-dashboard",
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard with customizable widgets and alerts.",
+      id: "tunnel-moon",
+      title: "Tunnel Moon",
+      description: "Web Application used Launching Solana-based token powered by moonshot",
       image: "/placeholder.svg?height=400&width=600",
-      technologies: ["Next.js", "WebSockets", "Chart.js"],
+      technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
     },
     {
-      id: "ai-chatbot",
+      id: "#",
       title: "AI Chatbot",
       description: "Conversational AI assistant with natural language processing and machine learning capabilities.",
       image: "/placeholder.svg?height=400&width=600",
@@ -44,7 +44,7 @@ export default function Home() {
     },
   ]
 
-  const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Python", "TensorFlow"]
+  const skills = ["JavaScript", "TypeScript", "React", "Next.js", "Node.js", "Python", "TensorFlow", "C#"]
 
   return (
     <div className="space-y-16">

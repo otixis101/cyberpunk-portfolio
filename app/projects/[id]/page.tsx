@@ -10,27 +10,38 @@ export default function ProjectPage() {
 
   // This would typically come from an API or database
   const projects = {
-    "neural-network": {
-      title: "Neural Network Visualizer",
-      description: "Interactive visualization of neural networks with real-time data processing and node connections.",
+    "tunnel-crypto": {
+      title: "Tunnel Crypto",
+      description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
       image: "/placeholder.svg?height=600&width=800",
-      technologies: ["React", "D3.js", "TensorFlow.js"],
-      category: "ai",
-      github: "https://github.com/example/neural-network",
-      demo: "https://neural-network-demo.example.com",
+      technologies: ["Next.js", "Typescript", "LocalRamp"],
+      category: "crypto",
+      github: "https://github.com",
+      demo: "https://tunnelapp.co",
       longDescription:
-        "This project provides an interactive visualization of neural networks, allowing users to see how data flows through different layers and nodes. It includes real-time data processing capabilities and visualizes node connections dynamically. The tool is useful for educational purposes and for developers working with neural networks who want to better understand their architecture and behavior.",
+        "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
     },
-    "crypto-dashboard": {
-      title: "Crypto Dashboard",
-      description: "Real-time cryptocurrency tracking dashboard with customizable widgets and alerts.",
+    "tunnel-moon": {
+      title: "Tunnel Moon",
+      description: "Web Application used Launching Solana-based token powered by moonshot",
       image: "/placeholder.svg?height=600&width=800",
-      technologies: ["Next.js", "WebSockets", "Chart.js"],
-      category: "web",
-      github: "https://github.com/example/crypto-dashboard",
-      demo: "https://crypto-dashboard.example.com",
+      technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
+      category: "web3",
+      github: "https://github.com/",
+      demo: "https://tunnelmoon.co",
       longDescription:
-        "A comprehensive cryptocurrency tracking dashboard that provides real-time data on various cryptocurrencies. Users can customize their dashboard with widgets for different coins, set price alerts, and view historical data through interactive charts. The application uses WebSockets to ensure data is always up-to-date without requiring page refreshes.",
+        "Web Application used Launching Solana-based token powered by moonshot",
+    },
+    "kloth-ware": {
+      title: "Kloth Ware",
+      description: "Eccomerce Web Application platform for a clothing brands",
+      image: "/placeholder.svg?height=600&width=800",
+      technologies: ["Next.js", "Typescript", "Redux", "Sanity", "Stripe" ],
+      category: "web",
+      github: "https://github.com/",
+      demo: "https://kloth-ware.vercel.app",
+      longDescription:
+        "Eccomerce Web Application platform for a clothing brands",
     },
     "ai-chatbot": {
       title: "AI Chatbot",
@@ -38,7 +49,7 @@ export default function ProjectPage() {
       image: "/placeholder.svg?height=600&width=800",
       technologies: ["Python", "NLP", "TensorFlow"],
       category: "ai",
-      github: "https://github.com/example/ai-chatbot",
+      github: "https://github.com/",
       demo: "https://ai-chatbot.example.com",
       longDescription:
         "An advanced conversational AI assistant that uses natural language processing and machine learning to understand and respond to user queries. The chatbot can be trained on specific domains and continuously improves its responses based on user interactions. It includes features like context awareness, sentiment analysis, and multi-language support.",
@@ -49,7 +60,7 @@ export default function ProjectPage() {
       image: "/placeholder.svg?height=600&width=800",
       technologies: ["React", "Ethers.js", "GraphQL"],
       category: "blockchain",
-      github: "https://github.com/example/blockchain-explorer",
+      github: "https://github.com/",
       demo: "https://blockchain-explorer.example.com",
       longDescription:
         "A comprehensive tool for exploring and visualizing blockchain transactions and smart contracts. Users can search for specific transactions, view detailed information about blocks and addresses, and analyze smart contract code. The explorer supports multiple blockchain networks and provides real-time updates on new transactions and blocks.",
