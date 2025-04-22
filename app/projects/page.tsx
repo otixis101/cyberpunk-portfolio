@@ -19,7 +19,7 @@ export default function ProjectsPage() {
       id: "tunnel-moon",
       title: "Tunnel Moon",
       description: "Web Application used Launching Solana-based token powered by moonshot",
-      image: "/images/tunnel-token.png",
+      image: "/images/tunnel-moon.png",
       technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
       category: "crypto",
     },
