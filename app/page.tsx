@@ -15,14 +15,14 @@ export default function Home() {
       id: "tunnel-crypto",
       title: "Tunnel Crypto",
       description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/tunnel-crypto.png",
       technologies: ["Next.js", "Typescript", "LocalRamp"],
     },
     {
       id: "tunnel-moon",
       title: "Tunnel Moon",
       description: "Web Application used Launching Solana-based token powered by moonshot",
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/images/tunnel-moon.png",
       technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
     },
     {

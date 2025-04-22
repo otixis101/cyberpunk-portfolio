@@ -13,7 +13,7 @@ export default function ProjectPage() {
     "tunnel-crypto": {
       title: "Tunnel Crypto",
       description: "Web Application used without creating an account to swap, buy and sell cryptocurrencies in a secure and seamless way.",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/images/tunnel-crypto.png",
       technologies: ["Next.js", "Typescript", "LocalRamp"],
       category: "crypto",
       github: "https://github.com",
@@ -24,7 +24,7 @@ export default function ProjectPage() {
     "tunnel-moon": {
       title: "Tunnel Moon",
       description: "Web Application used Launching Solana-based token powered by moonshot",
-      image: "/placeholder.svg?height=600&width=800",
+      image: "/images/tunnel-moon.png",
       technologies: ["Next.js", "Web3", "Typescript", "Moonshot", "Dexscreener" ],
       category: "web3",
       github: "https://github.com/",
